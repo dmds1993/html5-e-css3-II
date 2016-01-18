@@ -180,3 +180,7 @@ main {
 .blog .mais-recente a {
     color: #F26;
 }
+ul{
+    perspective: 600;
+    perspective-origin: 1000;
+}

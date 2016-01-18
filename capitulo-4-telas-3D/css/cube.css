@@ -1,0 +1,45 @@
+.cube-area{
+    position: absolute;
+    height: 480px;
+    width: 320px;
+    perspective: 600;
+}
+.cube{
+  position: absolute;
+  top: 140px;
+  left: 60px;
+  height: 200px;
+  width: 200px;
+
+  transform-style: preserve-3d;
+
+  /* Alterando o ângulo de visão em 45 graus... */
+  transform: rotateX(-45deg) rotateY(-45deg);
+
+}
+
+.face.front{
+  background-color: red;
+  transform: translateZ(100px);
+}
+
+.face.right{
+  background-color: green;
+  transform: translateX(100px) rotateY(90deg);
+}
+
+.face.left{
+  background-color: blue;
+  transform: translateX(-100px) rotateY(-90deg);
+}
+
+.face.back{
+  background-color: orange;
+  transform: translateZ(-100px) rotateY(180deg);
+}
+.face{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    opacity: .5;
+}
