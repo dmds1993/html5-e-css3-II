@@ -162,6 +162,7 @@ main {
 }
 .foto-home{
     border-radius: 50%/50%;
+    transform: scale(1.1);
 }
 .blog .inicio-post {
     position: absolute;
