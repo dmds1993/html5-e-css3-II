@@ -160,6 +160,9 @@ main {
 .titulo-principal {
     position: relative;
 }
+.foto-home{
+    border-radius: 50%/50%;
+}
 .blog .inicio-post {
     position: absolute;
     top: 4em;
