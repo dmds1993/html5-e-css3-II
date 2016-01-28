@@ -1,0 +1,6 @@
+.tabela p:nth-child(7n +3){
+    color: blue;
+}
+.tabela p:active{
+    color: red;
+}

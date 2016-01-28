@@ -7,12 +7,34 @@
     box-sizing: border-box;
 }
 
-.petrobras {
-    float: left;
+blockquote:nth-of-type(even){
+    float: right;
     margin-left: 0;
 }
 
-.fiat {
-    float: right;
+blockquote:nth-of-type(odd){
+    float: left;
     margin-right: 0;
+}
+.container p{
+    text-indent: 4ch;
+}
+main a:focus,
+main a:hover,
+footer a:hover,
+footer a:focus{
+    color:red;
+}
+.navegacao-site a:hover{
+    text-shadow: 0 0 1em pink;
+}
+.citacao-bio:nth-of-type(odd):hover,
+.citacao-bio:nth-of-type(odd):focus{
+    transform: rotate(10deg) scale(1.4);
+    box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.75);
+}
+.citacao-bio:nth-of-type(even):hover,
+.citacao-bio:nth-of-type(even):focus{
+    transform: rotate(-10deg) scale(1.4);
+    box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.75);
 }

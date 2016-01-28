@@ -7,6 +7,9 @@
     line-height: 1;
     padding: 2em;
 }
+html p :nth-child(even) {
+    color: blue;
+}
 .saudacao-inicio {
     font-size: 3em;
     color: #889;
