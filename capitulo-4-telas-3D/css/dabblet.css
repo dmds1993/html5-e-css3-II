@@ -1,0 +1,9 @@
+.dabblet{
+    background-image: linear-gradient(black ,red );
+    background-repeat: no-repeat;
+    background-size: 80% 5px;
+    background-position: 50% 50%;
+}
+body{
+    background-color: black;
+}
