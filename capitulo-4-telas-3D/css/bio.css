@@ -19,6 +19,31 @@ blockquote:nth-of-type(odd){
 .container p{
     text-indent: 4ch;
 }
+.icones-redes-sociais a{
+    position: relative;
+}
+.icones-redes-sociais a:hover::after,
+.icones-redes-sociais a:focus::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 100%;
+  right: 0;
+  text-indent: 0;
+  width: 300%;
+  background: black;
+  font-size: .75em;
+
+}
+.icones-redes-sociais a:hover::before{
+    content: '';
+    width: 1em;
+    height: 1em;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(.5em) rotate(45deg);
+}
 main a:focus,
 main a:hover,
 footer a:hover,
